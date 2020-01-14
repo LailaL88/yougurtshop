@@ -1,0 +1,345 @@
+.navbar-nav{
+	margin:0 auto;
+}
+
+.nav-link{
+	margin-left: 30px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.nav-link:hover{
+	color:#c8c10d!important;
+}
+
+.selected{
+	color: #cb3362!important;
+}
+
+.header{
+	background-color: #eeebec;
+}
+
+.navbar-brand{
+	margin-left: 30px;
+	padding-bottom: 15px!important;
+}
+
+.two{
+	/*background-image: url(images/bg-home.jpg);
+	background-position: center center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:650px;*/
+	height: 100%;
+
+}
+
+.mainImg{
+	width:100%;
+	z-index: -1;
+	position: relative;
+}
+.button{
+	padding: 63px 20px 60px 20px;
+	background-image: url(images/icons.png);
+	background-position: 0 -128px;
+	background-repeat: no-repeat;
+	float:right;
+	margin-top: -27%;
+	margin-right: 10%;
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	font-weight: bold;
+	z-index: 1;
+	font-size: 17px;
+}
+
+.button:hover{
+	text-decoration: none;
+	color:white;
+}
+
+@media only screen and (max-width: 590px){
+	.button{
+		margin-top: -155px;
+	}
+}
+
+.three{
+	clear: both;
+	background-color:#eae7e8;
+}
+
+.right{
+	align-items: flex-end;
+    display: flex;
+	
+}
+.three img{
+	width:100%;
+	vertical-align: bottom;
+}
+
+.three h3{
+	color:#7A6666;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+
+.three h1{
+	color:#E32A62;
+	padding:20px 0px;
+	font-weight: bold;
+}
+
+p{
+	color:#7A6666;
+}
+
+.four{
+	background-color: #c8c10d;
+}
+.four .col-md{
+	text-align: center;
+	padding:50px 0px 40px 0px;
+}
+
+i{
+	font-size: 40px;
+	color: white;
+}
+
+.four p{
+	color:white;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.footer{
+	background-color: #cb3362;
+	text-align: center;
+	padding:50px 10px 40px 10px;
+}
+
+.footer p{
+	color:white;
+	margin-top: 10px;
+}
+
+.footer i{
+	margin-left: 20px;
+}
+
+/*ABOUT PAGE*/
+
+section{
+	margin:0;
+	padding: 1px;
+}
+
+.aboutOne h1{
+	text-align: center;
+	color:white;
+	text-transform: uppercase;
+	padding:20px 10px;
+}
+
+.aboutOne{
+	background-color: #c8c10d;
+}
+
+.aboutTwo{
+	background-color: #eeebec;
+	text-align: center;
+}
+
+.aboutTwo img{
+	width:80%;
+}
+
+.aboutThree{
+	padding-top: 30px;
+}
+
+.aboutLeft{
+	padding:1% 7%!important;
+	text-align: center;
+	background-color: #eeebec;
+	margin-bottom: 30px;
+}
+
+.aboutLeft h2{
+	line-height: 60px;
+	padding-top: 0px;
+}
+
+.aboutLeft p{
+	line-height: 60px;
+}
+
+h2{
+	color:#E32A62;
+}
+
+.aboutRight{
+	padding:0px 40px!important;
+}
+
+.aboutRight p{
+	padding-bottom: 20px;
+}
+
+/*PRODUCTS PAGE*/
+
+.productsTwo h6{
+	color:#E32A62;
+	text-transform: uppercase;
+}
+
+.productsTwo img{
+	width:90%;
+}
+
+.productsTwo h2{
+	padding-top:30%;
+	padding-bottom: 10%;
+	font-weight: bold;
+}
+
+.img{
+	text-align: center;
+}
+
+
+
+.productsTwo{
+	margin-bottom: 40px;
+}
+
+/*BLOG PAGE*/
+.blogRight{
+	background-color: #eeebec;
+	text-align: center;
+	padding:20px;
+}
+
+.blogTwo .row{
+	margin:20px 0px;
+}
+
+.blogTwo img{
+	width:80%;
+}
+
+.blogTwo button{
+	margin-top: 10px;
+	padding:15px;
+	text-transform: uppercase;
+	color:grey;
+	border:1px solid grey;
+	background-color: white;
+}
+
+.line{
+	border-bottom: 1px solid silver;
+	padding-bottom: 40px;
+}
+
+.blogLeft{
+	text-align: center;
+}
+
+.blogTwo h2{
+	padding:20px 0px;
+}
+
+@media only screen and (max-width: 765px){
+	.productsTwo img{
+		width:50%;
+	}
+
+	.blogTwo img{
+		width:50%;
+		padding-bottom: 30px;
+	}
+}
+
+/*CONTACT PAGE*/
+
+.contactTwo{
+	background-image: url(images/map.jpg);
+	background-size: cover;
+	padding:20px 5px;
+}
+
+.contactTwo .container{
+	width:60%;
+	padding:30px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.contactTwo i{
+	color:#E32A62;
+	font-size: 80px;
+	float:right;
+}
+
+.contactLeft input {
+	display: block;
+	margin-bottom:5px;
+	padding:5px;
+	width:100%;
+}
+
+.contactLeft, .contactRight{
+	padding:20px;
+}
+
+.contactThree h2{
+	padding:20px 0px;
+}
+
+.contactThree .container{
+	width:60%;
+	margin-bottom: 70px;
+}
+
+.contactRight{
+	background-color: #eeebec;
+	text-align: center;
+	margin:30px;
+}
+
+textarea{
+	width:100%;
+	padding:5px;
+	height:100px;
+}
+
+.contactThree button{
+	margin-top: 10px;
+	padding:5px 30px;
+	text-transform: uppercase;
+	color:grey;
+	border:1px solid grey;
+	background-color: white;
+}
+
+@media only screen and (max-width: 768px){
+	.contactTwo .container{
+	width:100%;
+ }
+ .contactThree .container{
+	width:100%;
+ }
+}
+
+@media only screen and (max-width: 576px){
+	.aboutThree{
+		padding-top: 0px;
+	}
+	}
